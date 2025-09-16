@@ -1,5 +1,5 @@
 [package]
-name = "cs_mwc-wagyu-ethereum"
+name = "mwc-wagyu-ethereum"
 version = "0.6.3"
 authors = [
     "Collin Chin",
@@ -17,7 +17,7 @@ license = "MIT/Apache-2.0"
 edition = "2018"
 
 [dependencies]
-mwc-wagyu-model = { package = "cs_mwc-wagyu-model", version = "0.6.3", git = "https://github.com/cypherstack/wagyu-model", branch = "mirror" }
+mwc-wagyu-model = { git = "https://github.com/mwcproject/wagyu-model",  version="0.6.3", branch = "master" }
 
 base58 = { version = "0.1" }
 bitvec = { version = "0.17.4" }
